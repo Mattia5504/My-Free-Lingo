@@ -1,0 +1,942 @@
+[
+    {
+        "id": "B2_0100",
+        "type": "multiple_choice",
+        "questionText": "If I had booked the flight earlier, we ___ in a better hotel right now.",
+        "options": [
+            "would be staying",
+            "would stay",
+            "will stay",
+            "had stayed"
+        ],
+        "correctAnswer": "would be staying",
+        "translation": "Se avessi prenotato il volo prima, ora staremmo in un hotel migliore.",
+        "explanation": "Si tratta di un condizionale misto (Mixed Conditional): la condizione irreale è nel passato (Past Perfect) ma il risultato è nel presente (would + verbo in -ing)."
+    },
+    {
+        "id": "B2_0101",
+        "type": "multiple_choice",
+        "questionText": "We were delayed at the airport because there was a problem at baggage ___.",
+        "options": [
+            "return",
+            "reclaim",
+            "recovery",
+            "receipt"
+        ],
+        "correctAnswer": "reclaim",
+        "translation": "Abbiamo fatto ritardo all'aeroporto perché c'era un problema al ritiro bagagli.",
+        "explanation": "L'espressione corretta e più comune nel Regno Unito per 'ritiro bagagli' è 'baggage reclaim'."
+    },
+    {
+        "id": "B2_0102",
+        "type": "multiple_choice",
+        "questionText": "He ___ have missed his train; otherwise, he would be here by now.",
+        "options": [
+            "must",
+            "can",
+            "should",
+            "ought"
+        ],
+        "correctAnswer": "must",
+        "translation": "Deve aver perso il treno; altrimenti, sarebbe già qui.",
+        "explanation": "'Must have + participio passato' si usa per esprimere una forte deduzione logica o certezza riguardo a un evento passato."
+    },
+    {
+        "id": "B2_0103",
+        "type": "multiple_choice",
+        "questionText": "We need to ___ at the hotel by 11 AM before we head to the airport.",
+        "options": [
+            "check in",
+            "check out",
+            "log out",
+            "sign off"
+        ],
+        "correctAnswer": "check out",
+        "translation": "Dobbiamo fare il check-out in hotel entro le 11 prima di dirigerci verso l'aeroporto.",
+        "explanation": "Il phrasal verb 'check out' significa lasciare un hotel pagando il conto e restituendo le chiavi."
+    },
+    {
+        "id": "B2_0104",
+        "type": "multiple_choice",
+        "questionText": "By the time we arrived at the station, the train .",
+        "options": [
+            "left",
+            "has left",
+            "had already left",
+            "was leaving"
+        ],
+        "correctAnswer": "had already left",
+        "translation": "Quando siamo arrivati in stazione, il treno era già partito.",
+        "explanation": "Si usa il Past Perfect ('had left') per indicare un'azione passata conclusasi prima di un'altra azione passata ('arrived')."
+    },
+    {
+        "id": "B2_0105",
+        "type": "multiple_choice",
+        "questionText": "The flight was overbooked, so they offered us a free upgrade to ___ class.",
+        "options": [
+            "business",
+            "economic",
+            "tourist",
+            "executive"
+        ],
+        "correctAnswer": "business",
+        "translation": "Il volo era in overbooking, quindi ci hanno offerto un passaggio gratuito alla business class.",
+        "explanation": "La classe superiore alla classe economica sugli aerei passeggeri è comunemente chiamata 'business class'."
+    },
+    {
+        "id": "B2_0106",
+        "type": "multiple_choice",
+        "questionText": "I wish I ___ so much luggage. It's too heavy to carry around.",
+        "options": [
+            "didn't pack",
+            "hadn't packed",
+            "haven't packed",
+            "wouldn't pack"
+        ],
+        "correctAnswer": "hadn't packed",
+        "translation": "Vorrei non aver preparato così tanti bagagli. Sono troppo pesanti da portare in giro.",
+        "explanation": "'Wish' seguito dal Past Perfect si usa per esprimere un forte rimpianto per qualcosa avvenuto nel passato."
+    },
+    {
+        "id": "B2_0107",
+        "type": "multiple_choice",
+        "questionText": "We decided to go off the beaten ___ and explore the rural villages.",
+        "options": [
+            "road",
+            "path",
+            "track",
+            "way"
+        ],
+        "correctAnswer": "track",
+        "translation": "Abbiamo deciso di uscire dai sentieri battuti e di esplorare i villaggi rurali.",
+        "explanation": "L'espressione idiomatica 'off the beaten track' significa visitare luoghi lontani dalle rotte turistiche di massa."
+    },
+    {
+        "id": "B2_0108",
+        "type": "multiple_choice",
+        "questionText": "This time next week, we ___ on a beach in the Maldives.",
+        "options": [
+            "will relax",
+            "are relaxing",
+            "will be relaxing",
+            "relax"
+        ],
+        "correctAnswer": "will be relaxing",
+        "translation": "A quest'ora la prossima settimana, ci staremo rilassando su una spiaggia alle Maldive.",
+        "explanation": "Il Future Continuous ('will be + forma in -ing') si usa per un'azione che sarà in corso di svolgimento in un preciso momento futuro."
+    },
+    {
+        "id": "B2_0109",
+        "type": "multiple_choice",
+        "questionText": "Passengers are reminded that their passports must ___ at the boarding gate.",
+        "options": [
+            "show",
+            "be shown",
+            "showing",
+            "have shown"
+        ],
+        "correctAnswer": "be shown",
+        "translation": "Si ricorda ai passeggeri che i loro passaporti devono essere mostrati al gate d'imbarco.",
+        "explanation": "È necessaria la forma passiva ('must be + participio passato') perché l'azione ricade sul soggetto della frase (i passaporti)."
+    },
+    {
+        "id": "B2_0110",
+        "type": "multiple_choice",
+        "questionText": "Our travel agent arranged a comprehensive ___ that included all the main sights.",
+        "options": [
+            "itinerary",
+            "schedule",
+            "timetable",
+            "journal"
+        ],
+        "correctAnswer": "itinerary",
+        "translation": "Il nostro agente di viaggio ha organizzato un itinerario completo che includeva tutte le principali attrazioni.",
+        "explanation": "'Itinerary' è il termine specifico per indicare un piano di viaggio o percorso dettagliato."
+    },
+    {
+        "id": "B2_0111",
+        "type": "multiple_choice",
+        "questionText": "The tour guide recommended ___ a taxi after dark.",
+        "options": [
+            "not to take",
+            "not taking",
+            "don't take",
+            "to not take"
+        ],
+        "correctAnswer": "not taking",
+        "translation": "La guida turistica ha sconsigliato di prendere un taxi dopo il tramonto.",
+        "explanation": "Il verbo 'recommend' può essere seguito dal gerundio (forma in -ing). La negazione si posiziona subito prima del gerundio."
+    },
+    {
+        "id": "B2_0112",
+        "type": "multiple_choice",
+        "questionText": "We booked a self- ____ apartment so we could cook our own meals.",
+        "options": [
+            "cooking",
+            "catering",
+            "serving",
+            "making"
+        ],
+        "correctAnswer": "catering",
+        "translation": "Abbiamo prenotato un appartamento con angolo cottura per poterci cucinare i nostri pasti.",
+        "explanation": "L'aggettivo 'self-catering' descrive un tipo di alloggio vacanze in cui si ha a disposizione una cucina per preparare i propri pasti."
+    },
+    {
+        "id": "B2_0113",
+        "type": "multiple_choice",
+        "questionText": "The hotel, ___ overlooks the ocean, is fully booked for the summer.",
+        "options": [
+            "that",
+            "where",
+            "which",
+            "who"
+        ],
+        "correctAnswer": "which",
+        "translation": "L'hotel, che si affaccia sull'oceano, è tutto prenotato per l'estate.",
+        "explanation": "In una frase relativa non limitativa (non-defining relative clause, incisa tra virgole) riferita a una cosa, si deve usare 'which' e mai 'that'."
+    },
+    {
+        "id": "B2_0114",
+        "type": "multiple_choice",
+        "questionText": "Our car ___ on the highway, causing us to miss the ferry.",
+        "options": [
+            "broke up",
+            "broke down",
+            "broke out",
+            "broke into"
+        ],
+        "correctAnswer": "broke down",
+        "translation": "La nostra auto si è guastata in autostrada, facendoci perdere il traghetto.",
+        "explanation": "Il phrasal verb 'break down' si utilizza per indicare il guasto improvviso di un veicolo o di un macchinario."
+    },
+    {
+        "id": "B2_0115",
+        "type": "multiple_choice",
+        "questionText": "Don't forget to buy travel ___ in case of a medical emergency abroad.",
+        "options": [
+            "assurance",
+            "security",
+            "insurance",
+            "guarantee"
+        ],
+        "correctAnswer": "insurance",
+        "translation": "Non dimenticare di comprare un'assicurazione di viaggio in caso di emergenza medica all'estero.",
+        "explanation": "La traduzione corretta di assicurazione è 'insurance'. 'Assurance' si riferisce principalmente a una rassicurazione verbale o ad alcuni tipi di polizze vita."
+    },
+    {
+        "id": "B2_0116",
+        "type": "multiple_choice",
+        "questionText": "I remember ___ my passport in my bag, but now I can't find it.",
+        "options": [
+            "to put",
+            "put",
+            "putting",
+            "to putting"
+        ],
+        "correctAnswer": "putting",
+        "translation": "Ricordo di aver messo il passaporto nella borsa, ma ora non lo trovo.",
+        "explanation": "Il verbo 'remember' seguito dalla forma in -ing si riferisce al ricordo di un'azione già avvenuta nel passato."
+    },
+    {
+        "id": "B2_0117",
+        "type": "multiple_choice",
+        "questionText": "The receptionist told us that the breakfast ___ served until 10 AM.",
+        "options": [
+            "is",
+            "was",
+            "has been",
+            "will be"
+        ],
+        "correctAnswer": "was",
+        "translation": "L'addetto alla reception ci ha detto che la colazione veniva servita fino alle 10:00.",
+        "explanation": "Nel discorso indiretto (Reported Speech), se il verbo introduttivo è al passato ('told'), il tempo verbale della subordinata scala di un tempo nel passato."
+    },
+    {
+        "id": "B2_0118",
+        "type": "multiple_choice",
+        "questionText": "The museum is one of the city's top tourist ___.",
+        "options": [
+            "destinations",
+            "attractions",
+            "places",
+            "spots"
+        ],
+        "correctAnswer": "attractions",
+        "translation": "Il museo è una delle principali attrazioni turistiche della città.",
+        "explanation": "La collocazione lessicale più appropriata e comune per descrivere luoghi d'interesse turistico è 'tourist attractions'."
+    },
+    {
+        "id": "B2_0119",
+        "type": "multiple_choice",
+        "questionText": "If the weather had been better, the flight ___ cancelled.",
+        "options": [
+            "wouldn't be",
+            "hadn't been",
+            "wouldn't have been",
+            "wasn't"
+        ],
+        "correctAnswer": "wouldn't have been",
+        "translation": "Se il tempo fosse stato migliore, il volo non sarebbe stato cancellato.",
+        "explanation": "Condizionale del terzo tipo (Third Conditional): descrive una situazione irreale nel passato, usando 'would have + participio passato' per la conseguenza."
+    },
+    {
+        "id": "B2_0120",
+        "type": "multiple_choice",
+        "questionText": "I'm really looking forward ___ the ancient ruins in Athens.",
+        "options": [
+            "to visit",
+            "to visiting",
+            "visiting",
+            "visit"
+        ],
+        "correctAnswer": "to visiting",
+        "translation": "Non vedo l'ora di visitare le antiche rovine di Atene.",
+        "explanation": "La struttura 'look forward to' richiede sempre un sostantivo o un verbo alla forma in -ing (gerundio), poiché 'to' funge da preposizione."
+    },
+    {
+        "id": "B2_0121",
+        "type": "multiple_choice",
+        "questionText": "We spent three days trekking in ___ Himalayas.",
+        "options": [
+            "a",
+            "an",
+            "the",
+            "no article"
+        ],
+        "correctAnswer": "the",
+        "translation": "Abbiamo trascorso tre giorni facendo trekking sull'Himalaya.",
+        "explanation": "I nomi di catene montuose plurali in inglese (come the Alps, the Himalayas) richiedono sempre l'articolo determinativo 'the'."
+    },
+    {
+        "id": "B2_0122",
+        "type": "multiple_choice",
+        "questionText": "The ___ attendant demonstrated the safety procedures before takeoff.",
+        "options": [
+            "fly",
+            "plane",
+            "flight",
+            "air"
+        ],
+        "correctAnswer": "flight",
+        "translation": "L'assistente di volo ha illustrato le procedure di sicurezza prima del decollo.",
+        "explanation": "'Flight attendant' è il termine standard e professionale in inglese per indicare lo steward o la hostess di bordo."
+    },
+    {
+        "id": "B2_0123",
+        "type": "multiple_choice",
+        "questionText": "By the time we reach Sydney, we ___ for over 20 hours.",
+        "options": [
+            "will fly",
+            "are flying",
+            "will have flown",
+            "would fly"
+        ],
+        "correctAnswer": "will have flown",
+        "translation": "Quando raggiungeremo Sydney, avremo volato per più di 20 ore.",
+        "explanation": "Il Future Perfect ('will have + participio passato') si usa per esprimere un'azione che sarà stata completata o che avrà raggiunto una determinata durata entro un momento preciso nel futuro."
+    },
+    {
+        "id": "B2_0124",
+        "type": "multiple_choice",
+        "questionText": "The local market was so ___ that we could barely walk through the alleys.",
+        "options": [
+            "crowded",
+            "stuffed",
+            "flooded",
+            "narrow"
+        ],
+        "correctAnswer": "crowded",
+        "translation": "Il mercato locale era così affollato che riuscivamo a malapena a camminare tra i vicoli.",
+        "explanation": "L'aggettivo 'crowded' è ideale per descrivere un luogo eccessivamente pieno di persone."
+    },
+    {
+        "id": "B2_0125",
+        "type": "multiple_choice",
+        "questionText": "I need to get my visa ___ before I book the tickets.",
+        "options": [
+            "renew",
+            "renewing",
+            "renewed",
+            "to renew"
+        ],
+        "correctAnswer": "renewed",
+        "translation": "Devo farmi rinnovare il visto prima di prenotare i biglietti.",
+        "explanation": "Si usa la struttura causativa passiva 'get something done' (get + oggetto + participio passato) quando si fa svolgere un servizio a terzi."
+    },
+    {
+        "id": "B2_0126",
+        "type": "multiple_choice",
+        "questionText": "They decided to ___ early to avoid the rush hour traffic.",
+        "options": [
+            "set up",
+            "set off",
+            "set in",
+            "set down"
+        ],
+        "correctAnswer": "set off",
+        "translation": "Hanno deciso di mettersi in viaggio presto per evitare il traffico dell'ora di punta.",
+        "explanation": "Il phrasal verb 'set off' significa iniziare un viaggio o mettersi in cammino."
+    },
+    {
+        "id": "B2_0127",
+        "type": "multiple_choice",
+        "questionText": "Before boarding, you must go through security and present your boarding ___.",
+        "options": [
+            "card",
+            "ticket",
+            "pass",
+            "document"
+        ],
+        "correctAnswer": "pass",
+        "translation": "Prima dell'imbarco, devi passare i controlli di sicurezza e presentare la tua carta d'imbarco.",
+        "explanation": "Nel linguaggio aeroportuale, il documento cartaceo o digitale necessario per salire sull'aereo si chiama 'boarding pass'."
+    },
+    {
+        "id": "B2_0128",
+        "type": "multiple_choice",
+        "questionText": "It was ___ a long journey that we slept for two days afterwards.",
+        "options": [
+            "so",
+            "such",
+            "very",
+            "too"
+        ],
+        "correctAnswer": "such",
+        "translation": "È stato un viaggio così lungo che dopo abbiamo dormito per due giorni.",
+        "explanation": "'Such' si usa prima di un sostantivo o di un gruppo nominale ('a long journey') con valore enfatico, contrariamente a 'so' che è seguito solo da aggettivi o avverbi."
+    },
+    {
+        "id": "B2_0129",
+        "type": "multiple_choice",
+        "questionText": "Due to the storm, several flights experienced severe ___.",
+        "options": [
+            "delays",
+            "postponements",
+            "retards",
+            "late"
+        ],
+        "correctAnswer": "delays",
+        "translation": "A causa della tempesta, diversi voli hanno subito gravi ritardi.",
+        "explanation": "Nel contesto dei trasporti e dei voli, la parola inglese corretta per indicare i ritardi è 'delays'."
+    },
+    {
+        "id": "B2_0130",
+        "type": "multiple_choice",
+        "questionText": "I won't go to the party ___ you come with me.",
+        "options": [
+            "if",
+            "unless",
+            "provided",
+            "as long as"
+        ],
+        "correctAnswer": "unless",
+        "translation": "Non andrò alla festa a meno che tu non venga con me.",
+        "explanation": "'Unless' significa 'se non' o 'a meno che non' e sostituisce 'if not' nelle frasi condizionali."
+    },
+    {
+        "id": "B2_0131",
+        "type": "true_false",
+        "questionText": "La frase 'Despite of the rain, we went for a walk' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Nonostante la pioggia, siamo andati a fare una passeggiata.",
+        "explanation": "Si dice 'Despite the rain' oppure 'In spite of the rain'. 'Despite of' è grammaticalmente scorretto."
+    },
+    {
+        "id": "B2_0132",
+        "type": "multiple_choice",
+        "questionText": "By next year, I ___ my master's degree.",
+        "options": [
+            "will finish",
+            "will have finished",
+            "am finishing",
+            "would finish"
+        ],
+        "correctAnswer": "will have finished",
+        "translation": "Entro l'anno prossimo, avrò terminato la mia laurea magistrale.",
+        "explanation": "Il Future Perfect si usa per un'azione che sarà stata completata entro un momento specifico nel futuro ('by next year')."
+    },
+    {
+        "id": "B2_0133",
+        "type": "true_false",
+        "questionText": "La frase 'I had my car repaired yesterday' è grammaticalmente corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Vero",
+        "translation": "Ieri ho fatto riparare la mia auto.",
+        "explanation": "È l'uso corretto della forma causativa 'have something done', che indica che abbiamo affidato un compito a qualcun altro."
+    },
+    {
+        "id": "B2_0134",
+        "type": "multiple_choice",
+        "questionText": "You ___ told me you were going to be late! I waited for an hour.",
+        "options": [
+            "should have",
+            "must have",
+            "will have",
+            "can have"
+        ],
+        "correctAnswer": "should have",
+        "translation": "Avresti dovuto dirmi che avresti fatto ritardo! Ho aspettato per un'ora.",
+        "explanation": "'Should have + participio passato' si usa per esprimere un rimprovero o un rimpianto per un'azione non compiuta nel passato."
+    },
+    {
+        "id": "B2_0135",
+        "type": "true_false",
+        "questionText": "La frase 'She asked me where do I live' è grammaticalmente corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Mi ha chiesto dove vivo (dove vivevo).",
+        "explanation": "Nel discorso indiretto (Reported Speech), l'ordine delle parole torna ad essere affermativo (soggetto + verbo) senza l'ausiliare 'do', quindi: 'where I lived'."
+    },
+    {
+        "id": "B2_0136",
+        "type": "multiple_choice",
+        "questionText": "He admitted ___ the money from the company safe.",
+        "options": [
+            "to steal",
+            "stealing",
+            "steal",
+            "stolen"
+        ],
+        "correctAnswer": "stealing",
+        "translation": "Ha ammesso di aver rubato i soldi dalla cassaforte dell'azienda.",
+        "explanation": "Il verbo 'admit' regge il gerundio (forma in -ing), oppure la struttura con 'that' ('admitted that he stole')."
+    },
+    {
+        "id": "B2_0137",
+        "type": "true_false",
+        "questionText": "La frase 'If I had known, I would have helped you' è un First Conditional?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Se lo avessi saputo, ti avrei aiutato.",
+        "explanation": "Si tratta di un Third Conditional, utilizzato per ipotesi irreali e impossibili riferite al passato."
+    },
+    {
+        "id": "B2_0138",
+        "type": "multiple_choice",
+        "questionText": "When I arrived at the cinema, the film .",
+        "options": [
+            "has already started",
+            "already started",
+            "had already started",
+            "was already started"
+        ],
+        "correctAnswer": "had already started",
+        "translation": "Quando sono arrivato al cinema, il film era già iniziato.",
+        "explanation": "Il Past Perfect ('had started') si usa per esprimere un'azione passata che si è verificata prima di un'altra azione passata ('arrived')."
+    },
+    {
+        "id": "B2_0139",
+        "type": "true_false",
+        "questionText": "La frase 'I am used to wake up early' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Sono abituato a svegliarmi presto.",
+        "explanation": "La struttura 'be used to' regge sempre un sostantivo o un verbo al gerundio, quindi deve essere 'waking up'."
+    },
+    {
+        "id": "B2_0140",
+        "type": "multiple_choice",
+        "questionText": " I known about the traffic, I would have left earlier.",
+        "options": [
+            "Had",
+            "If",
+            "Have",
+            "Were"
+        ],
+        "correctAnswer": "Had",
+        "translation": "Se avessi saputo del traffico, sarei partito prima.",
+        "explanation": "È un caso di inversione condizionale formale tipica del livello B2/C1. Omette 'If' invertendo ausiliare e soggetto: 'Had I known' = 'If I had known'."
+    },
+    {
+        "id": "B2_0141",
+        "type": "true_false",
+        "questionText": "La frase 'He suggested to go to the cinema' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Ha suggerito di andare al cinema.",
+        "explanation": "Il verbo 'suggest' non è mai seguito dall'infinito con 'to'. Si usa la forma in -ing ('suggested going') o una frase oggettiva ('suggested that we go')."
+    },
+    {
+        "id": "B2_0142",
+        "type": "multiple_choice",
+        "questionText": "It's high time you ___ a proper job.",
+        "options": [
+            "find",
+            "found",
+            "finding",
+            "will find"
+        ],
+        "correctAnswer": "found",
+        "translation": "È proprio ora che tu trovi un lavoro serio.",
+        "explanation": "L'espressione 'It's high time' regge sempre il Past Simple (Unreal Past) per indicare che qualcosa dovrebbe essere già stato fatto nel presente."
+    },
+    {
+        "id": "B2_0143",
+        "type": "true_false",
+        "questionText": "La frase 'I wish I have more money' è grammaticalmente corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Vorrei avere più soldi.",
+        "explanation": "Per esprimere un desiderio nel presente (irrealizzabile) dopo 'wish' si usa il Past Simple. La forma corretta è 'I wish I had'."
+    },
+    {
+        "id": "B2_0144",
+        "type": "multiple_choice",
+        "questionText": "The man ___ car was stolen went to the police station.",
+        "options": [
+            "who",
+            "which",
+            "that",
+            "whose"
+        ],
+        "correctAnswer": "whose",
+        "translation": "L'uomo a cui è stata rubata la macchina è andato alla stazione di polizia.",
+        "explanation": "Si usa il pronome relativo di possesso 'whose' per indicare 'il quale/la cui' in riferimento a un possesso (l'auto dell'uomo)."
+    },
+    {
+        "id": "B2_0145",
+        "type": "true_false",
+        "questionText": "La frase 'She is having her hair cut tomorrow' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Vero",
+        "translation": "Si farà tagliare i capelli domani.",
+        "explanation": "L'uso del Present Continuous nella forma causativa 'have something done' è corretto per indicare un appuntamento già fissato per il futuro."
+    },
+    {
+        "id": "B2_0146",
+        "type": "multiple_choice",
+        "questionText": "Do you mind ___ the window? It's a bit stuffy in here.",
+        "options": [
+            "to open",
+            "open",
+            "opening",
+            "opened"
+        ],
+        "correctAnswer": "opening",
+        "translation": "Ti dispiace aprire la finestra? È un po' chiuso qui dentro.",
+        "explanation": "'Do you mind' e 'Would you mind' per chiedere permessi o fare richieste reggono sempre il gerundio (forma in -ing)."
+    },
+    {
+        "id": "B2_0147",
+        "type": "true_false",
+        "questionText": "La frase 'We have been waiting since two hours' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Stiamo aspettando da due ore.",
+        "explanation": "Si usa 'for' con una durata di tempo ('two hours'). 'Since' si usa solo con il punto di inizio nel passato ('since 2 o'clock')."
+    },
+    {
+        "id": "B2_0148",
+        "type": "multiple_choice",
+        "questionText": "The suspect ___ to have left the country.",
+        "options": [
+            "is thought",
+            "thinks",
+            "thought",
+            "is thinking"
+        ],
+        "correctAnswer": "is thought",
+        "translation": "Si pensa che il sospettato abbia lasciato il paese.",
+        "explanation": "Questa è una costruzione passiva impersonale con verbi di opinione (es. be + thought/said/believed + to + infinito perfetto)."
+    },
+    {
+        "id": "B2_0149",
+        "type": "true_false",
+        "questionText": "La frase 'Hardly had I arrived when the phone rang' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Vero",
+        "translation": "Ero appena arrivato quando è squillato il telefono.",
+        "explanation": "È una struttura enfatica e formale. Con avverbi negativi all'inizio della frase (Hardly, Scarcely, No sooner) si applica l'inversione soggetto/ausiliare."
+    },
+    {
+        "id": "B2_0150",
+        "type": "multiple_choice",
+        "questionText": "Not only ___ the piano, but she also sings beautifully.",
+        "options": [
+            "she plays",
+            "does she play",
+            "plays she",
+            "she is playing"
+        ],
+        "correctAnswer": "does she play",
+        "translation": "Non solo suona il pianoforte, ma canta anche magnificamente.",
+        "explanation": "Inversione obbligatoria: quando una frase inizia con espressioni restrittive come 'Not only', segue la struttura interrogativa ausiliare+soggetto+verbo."
+    },
+    {
+        "id": "B2_0151",
+        "type": "true_false",
+        "questionText": "La frase 'I look forward to hear from you' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Non vedo l'ora di avere tue notizie.",
+        "explanation": "In 'look forward to', la particella 'to' funge da preposizione, quindi richiede che il verbo successivo sia al gerundio ('hearing')."
+    },
+    {
+        "id": "B2_0152",
+        "type": "multiple_choice",
+        "questionText": "I can't find my keys anywhere. I must ___ them at work.",
+        "options": [
+            "have left",
+            "leave",
+            "had left",
+            "be leaving"
+        ],
+        "correctAnswer": "have left",
+        "translation": "Non trovo le mie chiavi da nessuna parte. Devo averle lasciate al lavoro.",
+        "explanation": "Deduzione logica forte nel passato: si usa il modale 'must' seguito dall'infinito perfetto ('have' + participio passato)."
+    },
+    {
+        "id": "B2_0153",
+        "type": "true_false",
+        "questionText": "La frase 'He warned me not to touch the wire' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Vero",
+        "translation": "Mi ha avvertito di non toccare il cavo.",
+        "explanation": "Nel discorso indiretto, gli imperativi negativi ('Don't touch') vengono riportati usando 'not to + infinito verbale'."
+    },
+    {
+        "id": "B2_0154",
+        "type": "multiple_choice",
+        "questionText": "She is naturally very good ___ languages.",
+        "options": [
+            "in learning",
+            "to learn",
+            "at learning",
+            "learning"
+        ],
+        "correctAnswer": "at learning",
+        "translation": "È naturalmente molto brava ad imparare le lingue.",
+        "explanation": "Gli aggettivi 'good' e 'bad' che indicano capacità in qualcosa reggono la preposizione 'at', seguita poi dal gerundio (-ing)."
+    },
+    {
+        "id": "B2_0155",
+        "type": "true_false",
+        "questionText": "La frase 'The book was so bored that I fell asleep' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Il libro era così noioso che mi sono addormentato.",
+        "explanation": "Si deve usare l'aggettivo in -ing ('boring') per descrivere l'effetto che qualcosa causa (il libro annoia). 'Bored' descrive l'emozione provata da una persona."
+    },
+    {
+        "id": "B2_0156",
+        "type": "multiple_choice",
+        "questionText": "It ___ to me that he is not telling the truth.",
+        "options": [
+            "looks",
+            "seems",
+            "shows",
+            "feels"
+        ],
+        "correctAnswer": "seems",
+        "translation": "Mi sembra che lui non stia dicendo la verità.",
+        "explanation": "'It seems to me' è l'espressione idiomatica e formale corretta per esprimere un parere ('Mi sembra/pare che')."
+    },
+    {
+        "id": "B2_0157",
+        "type": "true_false",
+        "questionText": "La frase 'She accused him for stealing the money' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Lo ha accusato di aver rubato i soldi.",
+        "explanation": "Il verbo 'accuse' regge sempre la preposizione 'of' e non 'for'. La forma corretta è 'accused him of stealing'."
+    },
+    {
+        "id": "B2_0158",
+        "type": "multiple_choice",
+        "questionText": "As soon as I ___ the results, I will call you.",
+        "options": [
+            "will get",
+            "get",
+            "am getting",
+            "got"
+        ],
+        "correctAnswer": "get",
+        "translation": "Non appena avrò i risultati, ti chiamerò.",
+        "explanation": "Nelle proposizioni temporali (introdotte da when, as soon as, before, until) non si usa il futuro, bensì il Present Simple per riferirsi ad azioni future."
+    },
+    {
+        "id": "B2_0159",
+        "type": "true_false",
+        "questionText": "La frase 'By the time we arrive, the film will have started' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Vero",
+        "translation": "Quando arriveremo, il film sarà già iniziato.",
+        "explanation": "La combinazione di 'By the time' + Present Simple e principale al Future Perfect illustra un'azione completata prima di un'altra nel futuro."
+    },
+    {
+        "id": "B2_0160",
+        "type": "multiple_choice",
+        "questionText": "I would rather you ___ here right now. It's not safe.",
+        "options": [
+            "are",
+            "were",
+            "be",
+            "have been"
+        ],
+        "correctAnswer": "were",
+        "translation": "Preferirei che tu fossi qui adesso. Non è sicuro.",
+        "explanation": "'Would rather' seguito da un soggetto diverso ('you') richiede il Past Simple per esprimere una preferenza relativa al presente o futuro."
+    },
+    {
+        "id": "B2_0161",
+        "type": "true_false",
+        "questionText": "La frase 'I have known him for 2010' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Lo conosco dal 2010.",
+        "explanation": "Si usa 'since' (dal) per indicare il punto di inizio nel tempo (es. 2010), mentre 'for' serve per esprimere la durata complessiva (es. for 10 years)."
+    },
+    {
+        "id": "B2_0162",
+        "type": "multiple_choice",
+        "questionText": "No sooner had he sat down ___ the doorbell rang.",
+        "options": [
+            "when",
+            "then",
+            "than",
+            "that"
+        ],
+        "correctAnswer": "than",
+        "translation": "Non si era appena seduto che suonò il campanello.",
+        "explanation": "La struttura enfatica corretta prevede 'No sooner... than...'. (A differenza di 'Hardly/Scarcely' che reggono 'when')."
+    },
+    {
+        "id": "B2_0163",
+        "type": "true_false",
+        "questionText": "La frase 'She reminded me to buy some milk' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Vero",
+        "translation": "Mi ha ricordato di comprare del latte.",
+        "explanation": "Il verbo 'remind' per indicare un compito da fare regge la struttura: verbo + oggetto + infinito verbale con 'to'."
+    },
+    {
+        "id": "B2_0164",
+        "type": "multiple_choice",
+        "questionText": "___ the cold weather, they decided to go swimming anyway.",
+        "options": [
+            "Although",
+            "Even though",
+            "Despite",
+            "However"
+        ],
+        "correctAnswer": "Despite",
+        "translation": "Nonostante il freddo, hanno deciso di andare a nuotare comunque.",
+        "explanation": "'Despite' è seguito da un sostantivo o pronome ('the cold weather'). 'Although' ed 'Even though' richiedono un'intera subordinata con soggetto e verbo."
+    },
+    {
+        "id": "B2_0165",
+        "type": "true_false",
+        "questionText": "La frase 'I prefer tea than coffee' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Preferisco il tè al caffè.",
+        "explanation": "Il verbo 'prefer' usato per paragonare due sostantivi richiede la preposizione 'to', non 'than'. La forma corretta è 'I prefer tea to coffee'."
+    },
+    {
+        "id": "B2_0166",
+        "type": "multiple_choice",
+        "questionText": "The boss wants this report ___ by tomorrow morning.",
+        "options": [
+            "finish",
+            "finished",
+            "finishing",
+            "to finish"
+        ],
+        "correctAnswer": "finished",
+        "translation": "Il capo vuole che questo rapporto sia finito per domani mattina.",
+        "explanation": "Struttura oggettiva passiva (verb + object + past participle): si vuole che l'azione venga subita dall'oggetto (il report)."
+    },
+    {
+        "id": "B2_0167",
+        "type": "true_false",
+        "questionText": "La frase 'If it will rain tomorrow, we will stay at home' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Se pioverà domani, resteremo a casa.",
+        "explanation": "Nel First Conditional, la proposizione subordinata introdotta da 'If' (if-clause) usa il Present Simple, non il futuro con 'will'. Il corretto è 'If it rains'."
+    },
+    {
+        "id": "B2_0168",
+        "type": "multiple_choice",
+        "questionText": "I regret ___ you that your application has been rejected.",
+        "options": [
+            "to inform",
+            "informing",
+            "inform",
+            "to informing"
+        ],
+        "correctAnswer": "to inform",
+        "translation": "Mi dispiace informarla che la sua candidatura è stata respinta.",
+        "explanation": "Il verbo 'regret' seguito dall'infinito verbale con 'to' si usa in contesti formali per introdurre o comunicare una cattiva notizia."
+    },
+    {
+        "id": "B2_0169",
+        "type": "true_false",
+        "questionText": "La frase 'Neither John nor his friends is coming' è corretta?",
+        "options": [
+            "Vero",
+            "Falso"
+        ],
+        "correctAnswer": "Falso",
+        "translation": "Né John né i suoi amici verranno.",
+        "explanation": "Con 'Neither... nor' il verbo concorda in genere e numero col soggetto a esso più vicino. Essendo 'friends' plurale, si usa 'are'."
+    }
+]

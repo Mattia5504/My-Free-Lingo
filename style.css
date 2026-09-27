@@ -1,0 +1,304 @@
+/* ==========================================================================
+   1. VARIABILI CROMATICHE E DI SISTEMA (Forest & Sage)
+   ========================================================================== */
+:root {
+    /* Palette Base (Light Mode) */
+    --color-primary: #4A7C59;
+    --color-error: #E56B6F;
+    --color-success: #6B9080;
+    --color-bg: #F9F6F0;
+    --color-surface: #FFFFFF;
+    --color-text-main: #2F3E46;
+    --color-text-muted: #849299;
+    --color-border: #E0DFDB;
+    --color-black:#202a30;
+    
+    /* Variabili strutturali */
+    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --border-radius-btn: 12px;
+    --border-radius-box: 16px;
+    --spacing-main: 20px;
+}
+
+/* Dark Mode Automatica (si attiva in base alle impostazioni di iOS) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: #6B9080;
+        --color-error: #F28C8F;
+        --color-success: #6B9080;
+        --color-bg: #1E1E1E;
+        --color-surface: #2D2D2D;
+        --color-text-main: #E0E0E0;
+        --color-text-muted: #9E9E9E;
+        --color-border: #424242;
+    }
+}
+
+/* ==========================================================================
+   2. RESET E IMPOSTAZIONI GLOBALI (Stile App Nativa)
+   ========================================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Impedisce di evidenziare il testo tenendo premuto, tipico delle app native */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Rimuove l'ombreggiatura blu sui click in iOS */
+    -webkit-tap-highlight-color: transparent; 
+    touch-action: manipulation; /* Migliora la reattività dei tocchi */
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-bg);
+    color: var(--color-text-main);
+    height: 100vh; /* Occupa esattamente tutto lo schermo */
+    width: 100vw;
+    overflow: hidden; /* Impedisce lo scrolling accidentale della pagina intera */
+    display: flex;
+    flex-direction: column;
+}
+
+/* ==========================================================================
+   3. GESTIONE DELLE SCHERMATE (Single Page Application)
+   ========================================================================== */
+.screen {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden-screen {
+    display: none !important;
+}
+
+/* ==========================================================================
+   4. SCHERMATA HOME
+   ========================================================================== */
+.home-header {
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+}
+
+.home-header h1 {
+    color: var(--color-primary);
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.level-grid {
+    flex-grow: 1; /* Prende tutto lo spazio centrale disponibile */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: var(--spacing-main);
+    overflow-y: auto; /* Permette lo scroll se i livelli sono tanti */
+}
+
+.level-btn {
+    background-color: var(--color-surface);
+    color: var(--color-primary);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius-btn);
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s ease, border-color 0.2s ease;
+}
+
+.level-btn:active {
+    transform: scale(0.97); /* Effetto "schiacciamento" al tocco */
+    border-color: var(--color-primary);
+}
+
+.home-footer {
+    padding: var(--spacing-main);
+    text-align: center;
+}
+
+.text-btn {
+    background: none;
+    border: none;
+    color: var(--color-text-muted);
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   5. SCHERMATA ALLENAMENTO
+   ========================================================================== */
+.training-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: var(--color-text-main);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.training-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-main);
+}
+
+.question-box {
+    flex-grow: 1; /* Spinge le opzioni verso il basso */
+    display: flex;
+    align-items: center; /* Centra la domanda verticalmente */
+    justify-content: center;
+    text-align: center;
+}
+
+#question-text {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+/* Griglia per i bottoni delle risposte (in basso - Thumb Zone) */
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Due colonne */
+    gap: 12px;
+    padding-bottom: 20px;
+}
+
+.option-btn {
+    background-color: var(--color-surface);
+    color: var(--color-text-main);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius-btn);
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.option-btn:active {
+    background-color: var(--color-border);
+}
+
+/* Stati speciali per i bottoni durante la validazione */
+.option-btn.correct {
+    background-color: var(--color-success);
+    color: white;
+    border-color: var(--color-success);
+}
+
+.option-btn.wrong {
+    background-color: var(--color-error);
+    color: white;
+    border-color: var(--color-error);
+}
+
+/* ==========================================================================
+   6. BANNER DI FEEDBACK (In basso, sopra le risposte)
+   ========================================================================== */
+.feedback-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 24px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transform: translateY(0);
+    transition: transform 0.3s ease; /* Animazione di scorrimento dal basso */
+}
+
+.feedback-banner.hidden {
+    transform: translateY(100%); /* Lo nasconde fuori dallo schermo in basso */
+}
+
+.feedback-banner.is-correct {
+    background-color: var(--color-success);
+}
+
+.feedback-banner.is-wrong {
+    background-color: var(--color-error);
+}
+
+#continue-btn {
+    background-color: white;
+    color: var(--color-black);
+    border: none;
+    border-radius: var(--border-radius-btn);
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* ==========================================================================
+   7. MODALE DI FINE LIVELLO
+   ========================================================================== */
+.completion-modal {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Sfondo scuro semi-trasparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; /* Assicura che sia sempre sopra a tutto */
+}
+
+.completion-modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    background-color: var(--color-surface);
+    color: var(--color-text-main);
+    padding: 30px;
+    border-radius: var(--border-radius-box);
+    text-align: center;
+    width: 85%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.modal-content h2 {
+    color: var(--color-primary);
+    margin-bottom: 15px;
+}
+
+.modal-content p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.modal-content .small-text {
+    font-size: 14px;
+    color: var(--color-text-muted);
+    margin-bottom: 25px;
+}
+
+#restart-level-btn {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius-btn);
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}

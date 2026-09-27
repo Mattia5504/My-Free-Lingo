@@ -1,0 +1,38 @@
+[
+  {
+    "id": "A1_0001",
+    "type": "multiple_choice",
+    "questionText": "I ___ a student.",
+    "options": ["am", "is", "are", "be"],
+    "correctAnswer": "am",
+    "translation": "Io sono uno studente.",
+    "explanation": "Con la prima persona singolare (I) si usa 'am'."
+  },
+  {
+    "id": "A1_0002",
+    "type": "multiple_choice",
+    "questionText": "She ___ apples.",
+    "options": ["like", "likes", "liking", "to like"],
+    "correctAnswer": "likes",
+    "translation": "A lei piacciono le mele.",
+    "explanation": "Alla terza persona singolare presente (He/She/It) il verbo prende la 's'."
+  },
+  {
+    "id": "A1_0003",
+    "type": "multiple_choice",
+    "questionText": "They ___ from Italy.",
+    "options": ["is", "am", "are", "be"],
+    "correctAnswer": "are",
+    "translation": "Loro vengono dall'Italia.",
+    "explanation": "Con 'They' (Loro) si usa sempre 'are'."
+  },
+  {
+    "id": "A1_0004",
+    "type": "multiple_choice",
+    "questionText": "La frase 'They are from Italy.' è corretta?",
+    "options": ["Vero", "Falso"],
+    "correctAnswer": "Vero",
+    "translation": "Loro vengono dall'Italia.",
+    "explanation": "Con 'They' (Loro) si usa sempre 'are'."
+  }
+]

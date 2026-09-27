@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>My-Free-Lingo</title>
+
+    <!-- PWA Meta Tags essenziali per iOS -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Lingo">
+    
+    <!-- Icona per iOS (dovrai mettere un'immagine 192x192 nella cartella icons) -->
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========================================== -->
+    <!-- SCHERMATA HOME (Selezione Livello)         -->
+    <!-- ========================================== -->
+    <div id="home-screen" class="screen active-screen">
+        <header class="home-header">
+            <h1>My-Free-Lingo</h1>
+            <p>Seleziona il tuo livello</p>
+        </header>
+
+        <main class="level-grid">
+            <!-- I bottoni chiameranno una funzione JS passando il livello -->
+            <button class="level-btn" onclick="startLevel('A1')">Livello A1</button>
+            <button class="level-btn" onclick="startLevel('A2')">Livello A2</button>
+            <button class="level-btn" onclick="startLevel('B1')">Livello B1</button>
+            <button class="level-btn" onclick="startLevel('B2')">Livello B2</button>
+            <button class="level-btn" onclick="startLevel('C1')">Livello C1</button>
+            <button class="level-btn" onclick="startLevel('C2')">Livello C2</button>
+        </main>
+
+        <footer class="home-footer">
+            <button class="text-btn" onclick="openBackupModal()">Esporta / Importa Salvataggi</button>
+        </footer>
+    </div>
+
+    <!-- ========================================== -->
+    <!-- SCHERMATA ALLENAMENTO (Core del Gioco)     -->
+    <!-- ========================================== -->
+    <div id="training-screen" class="screen hidden-screen">
+        <header class="training-header">
+            <button class="icon-btn" onclick="returnToHome()">✕</button>
+            <span id="current-level-display">Livello --</span>
+            <!-- Spazio vuoto per bilanciare il flexbox -->
+            <div style="width: 24px;"></div> 
+        </header>
+
+        <main class="training-body">
+            <!-- Qui verrà iniettata la domanda via JavaScript -->
+            <div id="question-container" class="question-box">
+                <!-- Esempio strutturale, sarà svuotato e riempito dal JS -->
+                <h2 id="question-text">Caricamento...</h2>
+            </div>
+            
+            <!-- Qui verranno iniettati i bottoni delle risposte -->
+            <div id="options-container" class="options-grid">
+                <!-- Verranno creati dinamicamente -->
+            </div>
+        </main>
+
+        <!-- Il Banner di feedback che appare dopo aver risposto -->
+        <div id="feedback-banner" class="feedback-banner hidden">
+            <h3 id="feedback-title">Corretto!</h3>
+            <p id = "feedback-correct-if-wrong" class="hidden"></p>
+            <p id="feedback-explanation" class="hidden">Spiegazione qui...</p>
+            <button id="continue-btn" onclick="loadNextQuestion()">Continua</button>
+        </div>
+    </div>
+    <!-- ========================================== -->
+        <!-- MODALE DI FINE LIVELLO (Rimescolamento)    -->
+        <!-- ========================================== -->
+        <div id="completion-modal" class="completion-modal hidden">
+            <div class="modal-content">
+                <h2>Domande Terminate 🚦</h2>
+                <p>Hai completato tutte le domande disponibili per questo livello.</p>
+                <p class="small-text">Siamo pronti a rimescolare le carte per un nuovo giro di allenamento.</p>
+                <button id="restart-level-btn" onclick="executeReshuffle()">Ricomincia Allenamento</button>
+            </div>
+        </div>
+
+    <script src="app.js"></script>
+    
+    <!-- Registrazione base del Service Worker (non toccare) -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('Service Worker registrato!', reg.scope))
+                    .catch(err => console.error('Errore Service Worker:', err));
+            });
+        }
+    </script>
+
+    <!-- ========================================== -->
+    <!-- MODALE DI BACKUP (Export / Import)         -->
+    <!-- ========================================== -->
+    <div id="backup-modal" class="completion-modal hidden">
+        <div class="modal-content">
+            <h2 style="color: var(--color-text-main);">Gestione Dati</h2>
+            <p style="margin-bottom: 20px;">Salva i tuoi progressi sull'iPhone per non perderli, o ripristina un salvataggio precedente.</p>
+            
+            <button class="option-btn" style="width: 100%; margin-bottom: 10px; background-color: var(--color-primary); color: white;" onclick="exportData()">
+                Esporta Salvataggio
+            </button>
+            
+            <!-- Questo è un input file nascosto che attiveremo tramite JS -->
+            <input type="file" id="import-file-input" accept=".json" style="display: none;" onchange="importData(event)">
+            
+            <button class="option-btn" style="width: 100%; margin-bottom: 20px;" onclick="document.getElementById('import-file-input').click()">
+                Importa Salvataggio
+            </button>
+            
+            <button class="text-btn" style="color: var(--color-error);" onclick="closeBackupModal()">Chiudi</button>
+        </div>
+    </div>
+</body>
+</html>
